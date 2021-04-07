@@ -1,0 +1,194 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+    {
+      "path": "pages/home", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "运过来Ship2u",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50
+      }
+    },
+    {
+      "path": "pages/order", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "运单",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50
+      }
+    },
+    {
+      "path": "pages/packages/details", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "包裹详情"
+      }
+    },
+    {
+      "path": "pages/packages/addPackage", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "添加包裹"
+      }
+    },
+    {
+      "path": "pages/me", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/fees/feesCalc", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "费用计算器"
+      }
+    },
+    {
+      "path": "pages/fees/details", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "费用计算详情"
+      }
+    },
+    {
+      "path": "pages/weblogin", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "绑定网站账号"
+      }
+    },
+    {
+      "path": "pages/freightorders/addOrder", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "新建运单"
+      }
+    },
+    {
+      "path": "pages/freightorders/details", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "运单详情"
+      }
+    },
+    {
+      "path": "pages/common/contact", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "联系客服"
+      }
+    },
+    {
+      "path": "pages/common/payments", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "支付方式"
+      }
+    },
+    {
+      "path": "pages/common/about", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "关于我们"
+      }
+    },
+    {
+      "path": "pages/common/faq", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "常见问题"
+      }
+    },
+    {
+      "path": "pages/common/onePrice", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "一口价转运"
+      }
+    },
+    {
+      "path": "pages/common/vouchers", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "卡券"
+      }
+    },
+    {
+      "path": "pages/common/keyWords", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "物流关键字"
+      }
+    },
+    {
+      "path": "pages/common/address", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "地址管理"
+      }
+    },
+    {
+      "path": "pages/common/addAddress", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "添加地址"
+      }
+    },
+    {
+      "path": "pages/common/terms", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "用户服务条款"
+      }
+    },
+    {
+      "path": "pages/test", // 页面路径，同时是 vue 文件相对于 src 的路径，必填
+      "style": {
+        // 页面配置，即 page.json 的内容，可选
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50
+      }
+    }
+  ],
+  "globalStyle": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#BE1416",
+    "navigationBarTitleText": "运过来",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#BE1416",
+    "list": [
+      {
+        "pagePath": "pages/home",
+        "text": "包裹",
+        "iconPath": "static/icons/yun.png",
+        "selectedIconPath": "static/icons/yun-active.png"
+      },
+      {
+        "pagePath": "pages/order",
+        "text": "运单",
+        "iconPath": "static/icons/order.png",
+        "selectedIconPath": "static/icons/order-active.png"
+      },
+      {
+        "pagePath": "pages/fees/feesCalc",
+        "text": "费用计算",
+        "iconPath": "static/icons/calc.png",
+        "selectedIconPath": "static/icons/calc-small-active.png"
+      },
+      {
+        "pagePath": "pages/me",
+        "text": "我的",
+        "iconPath": "static/icons/user.png",
+        "selectedIconPath": "static/icons/user-active.png"
+      }
+    ]
+  }
+}
